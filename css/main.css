@@ -1,0 +1,26 @@
+/* selector and declaration */
+/* selector { propername:value; } */
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text');
+:root:{
+    --main-color:yellow;
+    --text-color:black;
+
+}
+p{
+    color:blue;
+}
+body{
+    /* font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: bold;
+    line-height: 150%;
+    font-size:13px; */
+
+    /* shorthand */
+    font: italic small-caps bold 13px/150% arial;
+    background-color:var(--text-color);
+}
+h4{
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
